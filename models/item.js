@@ -16,4 +16,4 @@ ItemSchema
         return `/inventory/item/${this._id}`;
     });
 
-export default mongoose.models('ItemSchema', ItemSchema);
+export default mongoose.models('Item', ItemSchema);

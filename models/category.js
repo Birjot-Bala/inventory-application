@@ -13,3 +13,5 @@ CategorySchema
     .get(function() {
         return `/inventory/category/${this._id}`;
     });
+
+export default mongoose.models('Category', CategorySchema);
