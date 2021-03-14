@@ -14,4 +14,4 @@ CategorySchema
         return `/inventory/category/${this._id}`;
     });
 
-export default mongoose.models('Category', CategorySchema);
+export default mongoose.model('Category', CategorySchema);
